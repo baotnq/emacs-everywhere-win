@@ -1,3 +1,15 @@
+# Bao Trinh Edit:
+
+- Select A : dung Alt + A, thay cho Ctrl + A 
+- giu nguyen Ctrl + V : paste trong Visual studio , VS Code
+- giu nguyen Ctrl + S: save trong Visual Code
+- giu nguyen Ctrl + W: close tab trong Edge 
+
+- Suspend Hotkeys, để thực hiện :
+
+   - Muốn gõ tiếng việt, hãy Suspend Hotkey, bằng chuột rồi hãy thực hiện. 
+   - Select All: bằng Ctrl + A 
+
 # emacs-everywhere
 AutoHotkey script to provide basic Emacs key bindings for various Windows apps
 

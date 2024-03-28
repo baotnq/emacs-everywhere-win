@@ -414,7 +414,7 @@ Space::SendCommand("+{Space}")
 ^p::SendCtrlXConditional("^x^p", "{Up " . NumericPrefix . "}")
 ^b::SendCtrlXConditional("^x^b", "{Left " . NumericPrefix . "}")
 ^d::SendCommand("{Delete " . NumericPrefix . "}")
-^v::SendCommand("{PgDn 1}")
+; ^v::SendCommand("{PgDn 1}")
 !v::SendCommand("{PgUp 1}")
 ^i::SendCtrlXConditional("^{Space}", "^i")
 ^s::SendCtrlXConditional("^s", "^i")
@@ -534,6 +534,7 @@ c::SendCtrlXConditional("^kc", "c")
 
 ; Page Navigation
 ; Ctrl-V disabled. Too reliant on that for pasting :$
+!a::SendCommand("^{a}")
 ;^v::SendCommand("{PgDn}")
 !<::SendCommand("^{Home 1}")
 !>::SendCommand("^{End 1}")
@@ -555,10 +556,6 @@ Backspace::
   return
 Delete::
   SendCommand("{Delete}")
-  ClearMark()
-  return
-^w::
-  SendCommand("+{Delete}")
   ClearMark()
   return
 !w::
