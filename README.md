@@ -1,14 +1,9 @@
 # Bao Trinh Edit:
 
+
 - Select A : dung Alt + A, thay cho Ctrl + A 
-- giu nguyen Ctrl + V : paste trong Visual studio , VS Code
-- giu nguyen Ctrl + S: save trong Visual Code
-- giu nguyen Ctrl + W: close tab trong Edge 
 
-- Suspend Hotkeys, để thực hiện :
-
-   - Muốn gõ tiếng việt, hãy Suspend Hotkey, bằng chuột rồi hãy thực hiện. 
-   - Select All: bằng Ctrl + A 
+-  Muốn gõ tiếng việt, dùng keyboard layout kèm theo win, không sử dụng Unikey 
 
 # emacs-everywhere
 AutoHotkey script to provide basic Emacs key bindings for various Windows apps
@@ -21,6 +16,7 @@ To use:
 4. Ctrl+Alt+Enter toggles whether Emacs mode is active.
 
 ```
+M-a  Select All (thay cho C-a)
 C-p	Previous line (move up)
 C-n	Next line (move down)
 C-f	Forward one character (move right) Note: conflicts with normal "find" shortcut
@@ -37,7 +33,6 @@ C-d	Delete character after cursor
 M-d	Delete word after cursor
 C-Backspace	Delete word before cursor
 C-k	Kill line
-C-w	Cut region
 M-w	Copy region
 C-y	Paste (no kill ring, so don’t get full Emacs yank ability)
 C-Space Set mark
@@ -45,8 +40,7 @@ C-g Clear mark
 M-< Goto home
 M-> Goto end
 C-o Open line above cursor
-C-w Delete selection
-C-S-f Send Ctrl-f (e.g., to trigger a 'Find' dialog)
+C-Shift-f Send Ctrl-f (e.g., to trigger a 'Find' dialog)
 C-u Universal arg - increase numeric prefix by multiples of 4 (for repeating movement/deletion commands)
 C-M-F12 Reloads the script after making edits
 ```

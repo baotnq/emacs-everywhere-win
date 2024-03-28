@@ -417,7 +417,7 @@ Space::SendCommand("+{Space}")
 ; ^v::SendCommand("{PgDn 1}")
 !v::SendCommand("{PgUp 1}")
 ^i::SendCtrlXConditional("^{Space}", "^i")
-^s::SendCtrlXConditional("^s", "^i")
+; ^s::SendCtrlXConditional("^s", "^i")
 ^r::SendCommand("^+i")
 ^y::SendCommand("^v")
 ^g::
