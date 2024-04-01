@@ -1,6 +1,4 @@
-# Vài lời từ Quốc Bảo 
-
-## Lợi ích 
+# Lợi ích 
 
 - tăng hiệu quả công việc trong suốt quãng đời còn lại 
 
