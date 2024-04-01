@@ -1,14 +1,17 @@
 # Vài lời từ Quốc Bảo 
 
-## Lợi ích khi áp dụng
-- tăng hiệu quả công việc trong suốt quảng đời sử dụng windows 
-- mức độ cải thiện từ 1%-5% tùy ngành nghề, công việc
+## Lợi ích 
+
+- tăng hiệu quả công việc trong suốt quãng đời còn lại 
+
+- tăng từ 1%-5% tùy ngành nghề, công việc
+
+- mở rộng tầm mắt 
 
 ## Đánh đổi 
 - cần 1,2 tuần để làm quen với shortcut mới 
-- thiết lập cho máy tính mới 
 
-## Điều chỉnh
+## Điều chỉnh so với chuẩn emacs 
 
 - Ctrl + h : delete thay thế cho Backspace (rất thuận tiện)
 - Select A : dung Alt + A, thay cho Ctrl + A 
@@ -17,8 +20,7 @@
 
 -  Muốn gõ tiếng việt, dùng keyboard layout kèm theo win, không sử dụng Unikey 
    
-
-# emacs-everywhere
+## Cài đặt 
 AutoHotkey script to provide basic Emacs key bindings for various Windows apps
 
 To use:
@@ -28,6 +30,7 @@ To use:
 3. Double-click EmacsEverywhere.ahk to launch.
 4. Ctrl+Alt+Enter toggles whether Emacs mode is active.
 
+## Shortcut list 
 ```
 C-p	Previous line (move up)
 C-n	Next line (move down)
@@ -59,19 +62,5 @@ C-S-f Send Ctrl-f (e.g., to trigger a 'Find' dialog)
 C-u Universal arg - increase numeric prefix by multiples of 4 (for repeating movement/deletion commands)
 C-M-F12 Reloads the script after making edits
 ```
-
-Basic Emacs key bindings are supported for the following programs:
-
-- Notepad
-- FreeCommander XE
-- Cmd and PowerShell
-- P4V
-- Firefox address bar
-- Office Communicator / Skype
-- MusicBee
-- Visual Studio and R#
-- PyCharm
-- Outlook email editor
-- Word dialogs (Emacs key bindings for Word are available through [VBacs](http://www.rath.ca/Misc/VBacs/)
 
 It should be fairly straightforward to add support to other programs. Feel free to contribute.
