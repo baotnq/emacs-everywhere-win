@@ -1,9 +1,22 @@
-# Bao Trinh Edit:
+# Vài lời từ Quốc Bảo 
 
+## Lợi ích khi áp dụng
+- tăng hiệu quả công việc trong suốt quảng đời sử dụng windows 
+- mức độ cải thiện từ 1%-5% tùy ngành nghề, công việc
 
+## Đánh đổi 
+- cần 1,2 tuần để làm quen với shortcut mới 
+- thiết lập cho máy tính mới 
+
+## Điều chỉnh
+
+- Ctrl + h : delete thay thế cho Backspace (rất thuận tiện)
 - Select A : dung Alt + A, thay cho Ctrl + A 
+- giu nguyen Ctrl + V : paste trong Visual studio , VS Code
+- giu nguyen Ctrl + S: save trong Visual Studio Code
 
 -  Muốn gõ tiếng việt, dùng keyboard layout kèm theo win, không sử dụng Unikey 
+   
 
 # emacs-everywhere
 AutoHotkey script to provide basic Emacs key bindings for various Windows apps
@@ -16,7 +29,6 @@ To use:
 4. Ctrl+Alt+Enter toggles whether Emacs mode is active.
 
 ```
-M-a  Select All (thay cho C-a)
 C-p	Previous line (move up)
 C-n	Next line (move down)
 C-f	Forward one character (move right) Note: conflicts with normal "find" shortcut
@@ -29,10 +41,12 @@ C-<	Start of page
 C->	End of page
 C-_	Undo
 C-/ Undo
+C-h Delete character befor cursor
 C-d	Delete character after cursor
 M-d	Delete word after cursor
 C-Backspace	Delete word before cursor
 C-k	Kill line
+C-w	Cut region
 M-w	Copy region
 C-y	Paste (no kill ring, so don’t get full Emacs yank ability)
 C-Space Set mark
@@ -40,7 +54,8 @@ C-g Clear mark
 M-< Goto home
 M-> Goto end
 C-o Open line above cursor
-C-Shift-f Send Ctrl-f (e.g., to trigger a 'Find' dialog)
+C-w Delete selection
+C-S-f Send Ctrl-f (e.g., to trigger a 'Find' dialog)
 C-u Universal arg - increase numeric prefix by multiples of 4 (for repeating movement/deletion commands)
 C-M-F12 Reloads the script after making edits
 ```
